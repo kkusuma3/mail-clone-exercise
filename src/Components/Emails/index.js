@@ -34,10 +34,6 @@ const tableStyles =  makeStyles((theme) => ({
     }
 }));
 
-const prettifyDate = date => {
-    
-}
-
 const EmailsTable = () => {
     const [emailMessages, setEmailMessages] = useState(Emails.messages);
     const classes = tableStyles();
